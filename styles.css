@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+}
+#title{
+    font-size: 55px;
+}
+#description{
+    font-size: 15px;
+
+}
+br{
+    display: block;
+    margin: 7px 0;
+}
+.contenedor{
+
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+}
+.tit,#title,#description,#dropdown,.tem{
+    text-align: center;
+}
+#survey-form{
+    margin: 4px 30px;
+    font-family: serif;
+    color: aliceblue;
+}
+#title{
+    font-family: verdana;
+    font-size: larger;
+    font-size: 30px;
+    background-color: #1b1b1b;
+}
+#title,#description{
+    color: white;
+}
+.tem{
+    font-size: larger;
+    font-size: 23px;
+    color: white;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: white;
+    border-color: white;
+    min-width: 300px;
+  }
+textarea{
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+legend{
+    color: aqua;
+}
+hr{
+    border-width: 5px;
+    border: 1px solid grey;
+}

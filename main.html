@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1 id="title">Video Game Preferences and Experiences Survey</h1>
+    <div class="contenedor"> 
+        <p id="description"><b>We are interested in learning about your preferences and experiences in the world of video games. Please select the game genres you have played and the platforms you have played them on. This information will help us better understand your tastes and gaming habits.</b></p>
+      
+        <form id="survey-form">
+            <legend class="tem">Personal Information</legend>
+            <label id="name-label">Name:</label>
+            <input id="name" type="text" placeholder="Your name" required>
+            <br>
+            <label id="email-label">Email:</label>
+            <input id="email" type="email" placeholder="Your email" required>
+            <br>
+            <label id="number-label">Age:</label>
+            <input id="number" type="number" name="age" min="15" max="100" placeholder="Enter your age" required>
+            <hr>
+            <legend>Choose your favorite genre of video games</legend>
+            <br>
+            <select id="dropdown">
+                <option value=''> (select one)</option>
+                <option value='1'> shooter </option>
+                <option value='2'> rpg </option>
+                <option value='3'> fighting </option>
+                <option value='4'> racing </option>
+                <option value='5'> horror </option>
+                <option value='6'> action </option>
+                <option value='7'> adventure </option>
+                <option value='8'> survival </option>
+                <option value='9'> strategy </option>
+            </select>
+            <hr>
+            <legend>How many hours do you play video games per week?</legend>
+            <br>
+            <label for="hours1"><input id="hours1" type="radio" name="hours" value="0-5 hours" required>0-5 hours</label>
+            <label for="hours2"><input id="hours2" type="radio" name="hours" value="5-10 hours" required>5-10 hours</label>
+            <label for="hours3"><input id="hours3" type="radio" name="hours" value="10-15 hours" required>10-15 hours</label>
+            <label for="hours4"><input id="hours4" type="radio" name="hours" value="15-20 hours" required>15-20 hours</label>
+            <hr>
+            <h2 class="tit">Platform and games</h2>
+            <br>
+            <legend>What platform do you play on?</legend>
+            <br>
+            <label for="pc"><input id="pc" type="checkbox" name="platform" value="PC" required>PC</label>
+            <label for="ps"><input id="ps" type="checkbox" name="platform" value="PS4" required>PS4</label>
+            <label for="xbox"><input id="xbox" type="checkbox" name="platform" value="Xbox" required>Xbox</label>
+            <label for="mobile"><input id="mobile" type="checkbox" name="platform" value="Mobile" required>Mobile</label>
+            <label for="nintendo"><input id="nintendo" type="checkbox" name="platform" value="Nintendo" required>Nintendo</label>
+            <br><br>
+            <legend>Which of these shooter games have you played?</legend>
+            <br>
+            <label for="cod"><input id="cod" type="checkbox" name="shooter" value="Call of Duty" required>Call of Duty</label>
+            <br>
+            <label for="free-fire"><input id="free-fire" type="checkbox" name="shooter" value="Free Fire" required>Free Fire</label>
+            <br>
+            <label for="battlefield"><input id="battlefield" type="checkbox" name="shooter" value="Battlefield" required>Battlefield</label>
+            <br>
+            <label for="fortnite"><input id="fortnite" type="checkbox" name="shooter" value="Fortnite" required>Fortnite</label>
+            <br>
+            <label for="apex-legends"><input id="apex-legends" type="checkbox" name="shooter" value="Apex Legends" required>Apex Legends</label>
+            <br>
+            <label for="overwatch"><input id="overwatch" type="checkbox" name="shooter" value="Overwatch" required>Overwatch</label>
+            <br><br>
+            <legend>Which of these RPG games have you played?</legend>
+            <br>
+            <label for="witcher"><input id="witcher" type="checkbox" name="rpg" value="The Witcher" required>The Witcher</label>
+            <br>
+            <label for="skyrim"><input id="skyrim" type="checkbox" name="rpg" value="Skyrim" required>Skyrim</label>
+            <br>
+            <label for="dark-souls"><input id="dark-souls" type="checkbox" name="rpg" value="Dark Souls" required>Dark Souls</label>
+            <br>
+            <label for="final-fantasy"><input id="final-fantasy" type="checkbox" name="rpg" value="Final Fantasy" required>Final Fantasy</label>
+            <br>
+            <label for="monster-hunter"><input id="monster-hunter" type="checkbox" name="rpg" value="Monster Hunter" required>Monster Hunter</label>
+            <br>
+            <label for="persona"><input id="persona" type="checkbox" name="rpg" value="Persona" required>Persona</label>
+            <br><br>
+            <legend>Which of these fighting games have you played?</legend>
+            <br>
+            <label for="street-fighter"><input id="street-fighter" type="checkbox" name="fighting" value="Street Fighter" required>Street Fighter</label>
+            <br>
+            <label for="mortal-kombat"><input id="mortal-kombat" type="checkbox" name="fighting" value="Mortal Kombat" required>Mortal Kombat</label>
+            <br>
+            <label for="tekken"><input id="tekken" type="checkbox" name="fighting" value="Tekken" required>Tekken</label>
+            <br>
+            <label for="dragon-ball"><input id="dragon-ball" type="checkbox" name="fighting" value="Dragon Ball FighterZ" required>Dragon Ball FighterZ</label>
+            <br>
+            <label for="super-smash"><input id="super-smash" type="checkbox" name="fighting" value="Super Smash Bros" required>Super Smash Bros</label>
+            <br>
+            <label for="injustice"><input id="injustice" type="checkbox" name="fighting" value="Injustice" required>Injustice</label>
+            <br><br>
+            <legend>Which of these racing games have you played?</legend>
+            <br>
+            <label for="nfs"><input id="nfs" type="checkbox" name="racing" value="Need for Speed" required>Need for Speed</label>
+            <br>
+            <label for="forza"><input id="forza" type="checkbox" name="racing" value="Forza Horizon" required>Forza Horizon</label>
+            <br>
+            <label for="gran-turismo"><input id="gran-turismo" type="checkbox" name="racing" value="Gran Turismo" required>Gran Turismo</label>
+            <br>
+            <label for="dirt"><input id="dirt" type="checkbox" name="racing" value="Dirt" required>Dirt</label>
+            <br>
+            <label for="burnout"><input id="burnout" type="checkbox" name="racing" value="Burnout" required>Burnout</label>
+            <br>
+            <label for="mario-kart"><input id="mario-kart" type="checkbox" name="racing" value="Mario Kart" required>Mario Kart</label>
+            <br><br>
+            <legend>Which of these horror games have you played?</legend>
+            <br>
+            <label for="resident-evil"><input id="resident-evil" type="checkbox" name="horror" value="Resident Evil" required>Resident Evil</label>
+            <br>
+            <label for="silent-hill"><input id="silent-hill" type="checkbox" name="horror" value="Silent Hill" required>Silent Hill</label>
+            <br>
+            <label for="dead-space"><input id="dead-space" type="checkbox" name="horror" value="Dead Space" required>Dead Space</label>
+            <br>
+            <label for="outlast"><input id="outlast" type="checkbox" name="horror" value="Outlast" required>Outlast</label>
+            <br>
+            <label for="amnesia"><input id="amnesia" type="checkbox" name="horror" value="Amnesia" required>Amnesia</label>
+            <br>
+            <label for="until-dawn"><input id="until-dawn" type="checkbox" name="horror" value="Until Dawn" required>Until Dawn</label>
+            <br><br>
+            <legend>Which of these action games have you played?</legend>
+            <br>
+            <label for="gta"><input id="gta" type="checkbox" name="action" value="GTA" required>GTA</label>
+            <br>
+            <label for="red-dead"><input id="red-dead" type="checkbox" name="action" value="Red Dead Redemption" required>Red Dead Redemption</label>
+            <br>
+            <label for="assassins-creed"><input id="assassins-creed" type="checkbox" name="action" value="Assassins Creed" required>Assassins Creed</label>
+            <br>
+            <label for="uncharted"><input id="uncharted" type="checkbox" name="action" value="Uncharted" required>Uncharted</label>
+            <br>
+            <label for="metal-gear"><input id="metal-gear" type="checkbox" name="action" value="Metal Gear Solid" required>Metal Gear Solid</label>
+            <br>
+            <label for="bayonetta"><input id="bayonetta" type="checkbox" name="action" value="Bayonetta" required>Bayonetta</label>
+            <hr class="linea">
+            <br>
+            <legend>Any comments or suggestions?</legend>
+            <textarea id="comments" placeholder="Enter your comments here" required></textarea>
+            <hr>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>  
+</body>
+
+</html>
